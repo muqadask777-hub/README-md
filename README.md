@@ -49,6 +49,7 @@ This assignment demonstrates the Box Mapping Technique for a Clothing Store Land
 ### 1. Screenshot
 <img width="553" height="320" alt="Screenshot 2026-06-06 132225" src="https://github.com/user-attachments/assets/35110a85-42f5-427f-8d40-dd4e260f3a5f" />
 ### 2. Box Tree - Parent Child Hierarchy | HTML Tags
+
 | Box Name | HTML Tag | Description |
 |---|---|---|
 | ABOUT SECTION | `<section>` | Main about section. |
