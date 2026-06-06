@@ -62,7 +62,9 @@ This assignment demonstrates the Box Mapping Technique for a Clothing Store Land
 | gap | 24px | Adds spacing between cards. |
 ## 🔹 SECTION 4: PROMO BANNER
 ### 1. Screenshot
-"Promo Banner" (images/promo-banner.png)
+
+<img width="670" height="321" alt="Screenshot 2026-06-06 132448" src="https://github.com/user-attachments/assets/d1efafbf-40b8-4269-a34d-e7b793298717" />
+
 ### 2. Box Tree - Parent Child Hierarchy | HTML Tags
 | Box Name | HTML Tag | Description |
 |---|---|---|
@@ -76,7 +78,9 @@ This assignment demonstrates the Box Mapping Technique for a Clothing Store Land
 | flex-direction | column | Stacks content vertically. |
 ## 🔹 SECTION 5: FEATURES OUR STORE
 ### 1. Screenshot
-"Features Section" (images/features-section.png)
+
+<img width="699" height="291" alt="Screenshot 2026-06-06 132928" src="https://github.com/user-attachments/assets/4e85b7ff-0053-4612-80a1-70bd7cc565a4" />
+
 ### 2. Box Tree - Parent Child Hierarchy | HTML Tags
 | Box Name | HTML Tag | Description |
 |---|---|---|
@@ -90,7 +94,9 @@ This assignment demonstrates the Box Mapping Technique for a Clothing Store Land
 | grid-template-columns | 1fr 1fr | Creates two equal columns. |
 ## 🔹 SECTION 6: OUR PRODUCTS
 ### 1. Screenshot
-"Products Section" (images/products-section.png)
+
+<img width="397" height="370" alt="Screenshot 2026-06-06 133047" src="https://github.com/user-attachments/assets/dc9b70ee-9483-4281-bc25-a89e3df9e31c" />
+
 ### 2. Box Tree - Parent Child Hierarchy | HTML Tags
 | Box Name | HTML Tag | Description |
 |---|---|---|
@@ -104,7 +110,9 @@ This assignment demonstrates the Box Mapping Technique for a Clothing Store Land
 | flex-wrap | wrap | Moves cards to next line when needed. |
 ## 🔹 SECTION 7: NEWSLETTER
 ### 1. Screenshot
-"Newsletter" (images/newsletter.png)
+
+<img width="748" height="355" alt="Screenshot 2026-06-06 133129" src="https://github.com/user-attachments/assets/85e9c390-9537-4a9d-9b1f-88ea27a1fa49" />
+
 ### 2. Box Tree - Parent Child Hierarchy | HTML Tags
 | Box Name | HTML Tag | Description |
 |---|---|---|
