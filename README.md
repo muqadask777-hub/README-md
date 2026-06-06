@@ -17,6 +17,7 @@ This assignment demonstrates the Box Mapping Technique for a Clothing Store Land
 ## 🔹 SECTION 1: NAVBAR
 ### 1. Screenshot
 <img width="844" height="375" alt="navbar png1" src="https://github.com/user-attachments/assets/89f6807a-db2a-4902-9f85-698e6605fed9" />
+
 ### 2. Box Tree - Parent Child Hierarchy | HTML Tags
 | Box Name | HTML Tag | Description |
 |---|---|---|
