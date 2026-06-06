@@ -1,12 +1,5 @@
-GitHub par Markdown tables ko sahi se render karne ke liye, aapko **pipes (|)** aur **hyphens (-)** ka sahi use karna zaruri hai. Aapke text me kuch jagah pipes miss hain, isliye woh table nahi ban rahi.
-GitHub Markdown table ka sahi format yeh hota hai:
-```markdown
-| Header 1 | Header 2 | Header 3 |
-| --- | --- | --- |
-| Cell 1 | Cell 2 | Cell 3 |
 
-```
-Aapka content yahan proper table format me hai. Aap ise copy karke apne README.md me paste kar sakte hain:
+Aapka content yahan pro
 # Clothing Store Landing Page - Box Mapping Assignment
 ## Project Overview
 This assignment demonstrates the Box Mapping Technique for a Clothing Store Landing Page. The layout is divided into sections and analyzed using Parent-Child hierarchy, semantic HTML tags, and CSS properties before implementation.
@@ -22,7 +15,7 @@ This assignment demonstrates the Box Mapping Technique for a Clothing Store Land
 | Newsletter | display: flex; border-bottom: 1px solid #000; |
 ## 🔹 SECTION 1: NAVBAR
 ### 1. Screenshot
-"Navbar" (images/navbar.png)
+![Navbar Screenshot](images/navbar.png)
 ### 2. Box Tree - Parent Child Hierarchy | HTML Tags
 | Box Name | HTML Tag | Description |
 |---|---|---|
