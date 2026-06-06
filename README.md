@@ -1,5 +1,7 @@
 
-
+Muqadas, maine aapki saari diagrams (screenshots) dekh li hain. In saari diagrams ko aapne ab **images** folder mein upload karna hai, aur fir README.md file mein niche diye gaye **final format** mein copy-paste karna hai.
+Ise aapne bilkul isi tarah paste karna hai, maine **tables** aur **image paths** ko sahi set kar diya hai:
+```markdown
 # Clothing Store Landing Page - Box Mapping Assignment
 
 ## Project Overview
@@ -18,7 +20,7 @@ This assignment demonstrates the Box Mapping Technique for a Clothing Store Land
 
 ## 🔹 SECTION 1: NAVBAR
 ### 1. Screenshot
-![Navbar](images/navbar.png)
+![Navbar](images/1000163237.jpg)
 ### 2. Box Tree - Parent Child Hierarchy | HTML Tags
 | Box Name | HTML Tag | Description |
 |---|---|---|
@@ -26,30 +28,20 @@ This assignment demonstrates the Box Mapping Technique for a Clothing Store Land
 | LOGO | `<a>` | Clickable brand logo text. |
 | NAV LINKS WRAPPER | `<nav> > <ul>` | Holds menu links. |
 | CTA BUTTON | `<button>` | Buy Now button. |
-### 3. CSS Properties Table
-| Property | Value | Purpose |
-|---|---|---|
-| display | flex | Aligns items horizontally. |
-| justify-content | space-between | Pushes content to opposite sides. |
 
 ## 🔹 SECTION 2: HERO SECTION
 ### 1. Screenshot
-![Hero Section](images/hero-section.png)
+![Hero Section](images/1000163239.jpg)
 ### 2. Box Tree - Parent Child Hierarchy | HTML Tags
 | Box Name | HTML Tag | Description |
 |---|---|---|
 | HERO SECTION | `<section>` | Main banner area. |
 | TEXT WRAPPER | `<div>` | Contains hero text. |
 | MAIN HEADING | `<h1>` | Main title of page. |
-### 3. CSS Properties Table
-| Property | Value | Purpose |
-|---|---|---|
-| background-size | cover | Covers entire hero area. |
-| min-height | 80vh | Creates large banner height. |
 
 ## 🔹 SECTION 3: ABOUT US
 ### 1. Screenshot
-![About Us](images/about-us.png)
+![About Us](images/1000163241.jpg)
 ### 2. Box Tree - Parent Child Hierarchy | HTML Tags
 | Box Name | HTML Tag | Description |
 |---|---|---|
@@ -57,60 +49,40 @@ This assignment demonstrates the Box Mapping Technique for a Clothing Store Land
 | SECTION TITLE | `<h2>` | About Us heading. |
 | CARDS WRAPPER | `<div>` | Holds three cards. |
 | ABOUT CARD | `<div>` | Individual content card. |
-### 3. CSS Properties Table
-| Property | Value | Purpose |
-|---|---|---|
-| display | flex | Places cards side-by-side. |
-| gap | 24px | Adds spacing between cards. |
 
 ## 🔹 SECTION 4: PROMO BANNER
 ### 1. Screenshot
-![Promo Banner](images/promo-banner.png)
+![Promo Banner](images/1000163243.jpg)
 ### 2. Box Tree - Parent Child Hierarchy | HTML Tags
 | Box Name | HTML Tag | Description |
 |---|---|---|
 | PROMO BANNER | `<section>` | Promotional sale section. |
 | INFO WRAPPER | `<div>` | Groups text content. |
 | SHOP BUTTON | `<button>` | Shop Now CTA button. |
-### 3. CSS Properties Table
-| Property | Value | Purpose |
-|---|---|---|
-| display | flex | Enables flexible layout. |
-| flex-direction | column | Stacks content vertically. |
 
 ## 🔹 SECTION 5: FEATURES OUR STORE
 ### 1. Screenshot
-![Features Section](images/features-section.png)
+![Features Section](images/1000163245.jpg)
 ### 2. Box Tree - Parent Child Hierarchy | HTML Tags
 | Box Name | HTML Tag | Description |
 |---|---|---|
 | FEATURES CONTAINER | `<section>` | Main features section. |
 | LEFT TITLE BOX | `<div>` | Contains heading. |
 | RIGHT GRID BOX | `<div>` | Holds feature items. |
-### 3. CSS Properties Table
-| Property | Value | Purpose |
-|---|---|---|
-| display | grid | Creates structured grid layout. |
-| grid-template-columns | 1fr 1fr | Creates two equal columns. |
 
 ## 🔹 SECTION 6: OUR PRODUCTS
 ### 1. Screenshot
-![Products Section](images/products-section.png)
+![Products Section](images/1000163247.jpg)
 ### 2. Box Tree - Parent Child Hierarchy | HTML Tags
 | Box Name | HTML Tag | Description |
 |---|---|---|
 | PRODUCTS SECTION | `<section>` | Product catalog area. |
 | GRID WRAPPER | `<div>` | Wraps product cards. |
 | PRODUCT CARD | `<div>` | Single product item. |
-### 3. CSS Properties Table
-| Property | Value | Purpose |
-|---|---|---|
-| display | flex | Aligns product cards. |
-| flex-wrap | wrap | Moves cards to next line when needed. |
 
 ## 🔹 SECTION 7: NEWSLETTER
 ### 1. Screenshot
-![Newsletter](images/newsletter.png)
+![Newsletter](images/1000163249.jpg)
 ### 2. Box Tree - Parent Child Hierarchy | HTML Tags
 | Box Name | HTML Tag | Description |
 |---|---|---|
@@ -118,11 +90,10 @@ This assignment demonstrates the Box Mapping Technique for a Clothing Store Land
 | FORM WRAPPER | `<form>` | Handles input and button layout. |
 | EMAIL INPUT | `<input>` | User email input field. |
 | SUBSCRIBE BUTTON | `<button>` | Newsletter subscribe button. |
-### 3. CSS Properties Table
-| Property | Value | Purpose |
-|---|---|---|
-| display | flex | Aligns form elements horizontally. |
-| border-bottom | 1px solid #000 | Creates bottom border effect. |
 
-## Conclusion
-This Box Mapping Assignment demonstrates how a Clothing Store Landing Page can be structured using semantic HTML and CSS layout techniques such as Flexbox and Grid. Each section has been analyzed through screenshots, parent-child hierarchy, HTML tags, and CSS properties before implementation.
+```
+**Zaroori Steps:**
+ 1. Apni saari images (1000163237.jpg se lekar 1000163249.jpg tak) ko GitHub ke images folder mein upload karein.
+ 2. README file mein purana data delete karke upar diya gaya code paste karein.
+ 3. **Commit changes** button zaroor dabayein.
+Ab aapki table aur images perfect dikhengi!
