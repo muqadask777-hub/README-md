@@ -1,5 +1,7 @@
 
 
+Yeh GitHub-ready README.md format hai. Isko copy-paste kar do, tables aur images sahi render hongi:
+
 Clothing Store Landing Page - Box Mapping Assignment
 
 Project Overview
@@ -13,13 +15,13 @@ Complete Page — Section Stack Overview
 How the 7 core sections stack vertically inside the "<body>":
 
 Section| Important CSS Properties
-Navbar| "display: flex;" | "position: sticky;"
-Hero Section| "min-height: 80vh;" | "background-size: cover;"
-About Us| "display: flex;" | "gap: 24px;"
-Promo Banner| "display: flex;" | "flex-direction: column;"
-Features Section| "display: flex;" | "display: grid;"
-Our Products| "display: flex;" | "flex-wrap: wrap;"
-Newsletter| "display: flex;" | "border-bottom: 1px solid #000;"
+Navbar| "display: flex;", "position: sticky;"
+Hero Section| "min-height: 80vh;", "background-size: cover;"
+About Us| "display: flex;", "gap: 24px;"
+Promo Banner| "display: flex;", "flex-direction: column;"
+Features Section| "display: flex;", "display: grid;"
+Our Products| "display: flex;", "flex-wrap: wrap;"
+Newsletter| "display: flex;", "border-bottom: 1px solid #000;"
 
 ---
 
@@ -38,7 +40,7 @@ Box Tree - Parent Child Hierarchy | HTML Tags
 Box Name| HTML Tag| Description
 NAVBAR CONTAINER| "<header>"| Outermost container for navigation, sticky to top.
 LOGO| "<a>"| Clickable brand text (Esprit).
-NAV LINKS WRAPPER| "<nav>" > "<ul>"| Row holding the menu links.
+NAV LINKS WRAPPER| "<nav> > <ul>"| Row holding the menu links.
 CTA BUTTON| "<button>"| "Buy Now" button on the right edge.
 
 CSS Properties Table
@@ -173,4 +175,5 @@ display| flex| Aligns content horizontally.| "display: flex;"
 border-bottom| 1px solid #000| Creates bottom separator line.| "border-bottom: 1px solid #000;"
 
 ---
+
 
