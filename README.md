@@ -1,179 +1,172 @@
 
 
-Yeh GitHub-ready README.md format hai. Isko copy-paste kar do, tables aur images sahi render hongi:
-
 Clothing Store Landing Page - Box Mapping Assignment
 
 Project Overview
 
-This assignment demonstrates the Box Mapping technique for a Clothing Store landing page based on course guidelines. It breaks down the page layout into nested boxes, semantic HTML tags, and essential CSS properties before coding.
+This assignment demonstrates the Box Mapping Technique for a Clothing Store Landing Page. The layout is divided into sections and analyzed using Parent-Child hierarchy, semantic HTML tags, and CSS properties before implementation.
 
 ---
 
 Complete Page — Section Stack Overview
-
-How the 7 core sections stack vertically inside the "<body>":
 
 Section| Important CSS Properties
 Navbar| "display: flex;", "position: sticky;"
 Hero Section| "min-height: 80vh;", "background-size: cover;"
 About Us| "display: flex;", "gap: 24px;"
 Promo Banner| "display: flex;", "flex-direction: column;"
-Features Section| "display: flex;", "display: grid;"
+Features Section| "display: grid;", "grid-template-columns: 1fr 1fr;"
 Our Products| "display: flex;", "flex-wrap: wrap;"
 Newsletter| "display: flex;", "border-bottom: 1px solid #000;"
 
 ---
 
-Section-by-Section Detailed Box Mapping
-
----
-
 🔹 SECTION 1: NAVBAR
 
-Screenshot
+1. Screenshot
 
 "Navbar" (images/navbar.png)
 
-Box Tree - Parent Child Hierarchy | HTML Tags
+2. Box Tree - Parent Child Hierarchy | HTML Tags
 
 Box Name| HTML Tag| Description
-NAVBAR CONTAINER| "<header>"| Outermost container for navigation, sticky to top.
-LOGO| "<a>"| Clickable brand text (Esprit).
-NAV LINKS WRAPPER| "<nav> > <ul>"| Row holding the menu links.
-CTA BUTTON| "<button>"| "Buy Now" button on the right edge.
+NAVBAR CONTAINER| "<header>"| Outermost container for navigation.
+LOGO| "<a>"| Clickable brand logo text.
+NAV LINKS WRAPPER| "<nav> > <ul>"| Holds menu links.
+CTA BUTTON| "<button>"| Buy Now button.
 
-CSS Properties Table
+3. CSS Properties Table
 
-Property| Value| Purpose| Snippet
-display| flex| Aligns items horizontally.| "header { display: flex; }"
-justify-content| space-between| Pushes items to edges.| "justify-content: space-between;"
+Property| Value| Purpose
+display| flex| Aligns items horizontally.
+justify-content| space-between| Pushes content to opposite sides.
 
 ---
 
 🔹 SECTION 2: HERO SECTION
 
-Screenshot
+1. Screenshot
 
 "Hero Section" (images/hero-section.png)
 
-Box Tree - Parent Child Hierarchy | HTML Tags
+2. Box Tree - Parent Child Hierarchy | HTML Tags
 
 Box Name| HTML Tag| Description
-HERO SECTION| "<section>"| Holds the large background fashion image.
-TEXT WRAPPER| "<div>"| Box holding the text over the image.
-MAIN HEADING| "<h1>"| Title text "Clothing Store".
+HERO SECTION| "<section>"| Main banner area.
+TEXT WRAPPER| "<div>"| Contains hero text.
+MAIN HEADING| "<h1>"| Main title of page.
 
-CSS Properties Table
+3. CSS Properties Table
 
-Property| Value| Purpose| Snippet
-background-size| cover| Fits image to cover the section perfectly.| "background-size: cover;"
+Property| Value| Purpose
+background-size| cover| Covers entire hero area.
+min-height| 80vh| Creates large banner height.
 
 ---
 
 🔹 SECTION 3: ABOUT US
 
-Screenshot
+1. Screenshot
 
 "About Us" (images/about-us.png)
 
-Box Tree - Parent Child Hierarchy | HTML Tags
+2. Box Tree - Parent Child Hierarchy | HTML Tags
 
 Box Name| HTML Tag| Description
-ABOUT SECTION| "<section>"| Full section block with white background.
-SECTION TITLE| "<h2>"| Center-aligned title "About Us".
-CARDS WRAPPER| "<div>"| Horizontal wrapper holding 3 columns.
-ABOUT CARD| "<div>"| Individual card (Image + Text).
+ABOUT SECTION| "<section>"| Main about section.
+SECTION TITLE| "<h2>"| About Us heading.
+CARDS WRAPPER| "<div>"| Holds three cards.
+ABOUT CARD| "<div>"| Individual content card.
 
-CSS Properties Table
+3. CSS Properties Table
 
-Property| Value| Purpose| Snippet
-display| flex| Positions 3 cards side-by-side.| "div { display: flex; }"
-gap| 24px| Adds spacing between cards.| "gap: 24px;"
+Property| Value| Purpose
+display| flex| Places cards side-by-side.
+gap| 24px| Adds spacing between cards.
 
 ---
 
-🔹 SECTION 4: PROMO BANNER (-70%)
+🔹 SECTION 4: PROMO BANNER
 
-Screenshot
+1. Screenshot
 
 "Promo Banner" (images/promo-banner.png)
 
-Box Tree - Parent Child Hierarchy | HTML Tags
+2. Box Tree - Parent Child Hierarchy | HTML Tags
 
 Box Name| HTML Tag| Description
-PROMO BANNER| "<section>"| Banner featuring the sale text.
-INFO WRAPPER| "<div>"| Centered column grouping details.
-SHOP BUTTON| "<button>"| "Shop Now" call to action button.
+PROMO BANNER| "<section>"| Promotional sale section.
+INFO WRAPPER| "<div>"| Groups text content.
+SHOP BUTTON| "<button>"| Shop Now CTA button.
 
-CSS Properties Table
+3. CSS Properties Table
 
-Property| Value| Purpose| Snippet
-flex-direction| column| Stacks items vertically inside the box.| "flex-direction: column;"
+Property| Value| Purpose
+display| flex| Enables flexible layout.
+flex-direction| column| Stacks content vertically.
 
 ---
 
 🔹 SECTION 5: FEATURES OUR STORE
 
-Screenshot
+1. Screenshot
 
 "Features Section" (images/features-section.png)
 
-Box Tree - Parent Child Hierarchy | HTML Tags
+2. Box Tree - Parent Child Hierarchy | HTML Tags
 
 Box Name| HTML Tag| Description
-FEATURES CONTAINER| "<section>"| Outermost section for features list.
-LEFT TITLE BOX| "<div>"| Left column for the heading.
-RIGHT GRID BOX| "<div>"| Right column holding 2×2 items grid.
+FEATURES CONTAINER| "<section>"| Main features section.
+LEFT TITLE BOX| "<div>"| Contains heading.
+RIGHT GRID BOX| "<div>"| Holds feature items.
 
-CSS Properties Table
+3. CSS Properties Table
 
-Property| Value| Purpose| Snippet
-display| grid| Forms a clean grid for feature icons.| "div { display: grid; }"
-grid-template-columns| 1fr 1fr| Splits space into two equal columns.| "grid-template-columns: 1fr 1fr;"
+Property| Value| Purpose
+display| grid| Creates structured grid layout.
+grid-template-columns| 1fr 1fr| Creates two equal columns.
 
 ---
 
 🔹 SECTION 6: OUR PRODUCTS
 
-Screenshot
+1. Screenshot
 
 "Products Section" (images/products-section.png)
 
-Box Tree - Parent Child Hierarchy | HTML Tags
+2. Box Tree - Parent Child Hierarchy | HTML Tags
 
 Box Name| HTML Tag| Description
-PRODUCTS SECTION| "<section>"| Main section for displaying clothes catalog.
-GRID WRAPPER| "<div>"| Wrapping box for responsive item rows.
-PRODUCT CARD| "<div>"| Individual item (Image, Title, Price).
+PRODUCTS SECTION| "<section>"| Product catalog area.
+GRID WRAPPER| "<div>"| Wraps product cards.
+PRODUCT CARD| "<div>"| Single product item.
 
-CSS Properties Table
+3. CSS Properties Table
 
-Property| Value| Purpose| Snippet
-flex-wrap| wrap| Drops items to next row if space is small.| "flex-wrap: wrap;"
+Property| Value| Purpose
+display| flex| Aligns product cards.
+flex-wrap| wrap| Moves cards to next line when needed.
 
 ---
 
 🔹 SECTION 7: NEWSLETTER
 
-Screenshot
+1. Screenshot
 
 "Newsletter" (images/newsletter.png)
 
-Box Tree - Parent Child Hierarchy | HTML Tags
+2. Box Tree - Parent Child Hierarchy | HTML Tags
 
 Box Name| HTML Tag| Description
-NEWSLETTER SECTION| "<section>"| Newsletter subscription area.
-CONTENT WRAPPER| "<div>"| Holds heading and input field.
-EMAIL INPUT| "<input>"| User enters email address.
-SUBSCRIBE BUTTON| "<button>"| Submit subscription request.
+NEWSLETTER BOX| "<section>"| Bottom section for email subscription.
+FORM WRAPPER| "<form>"| Handles input and button layout.
+EMAIL INPUT| "<input>"| User email input field.
+SUBSCRIBE BUTTON| "<button>"| Newsletter subscribe button.
 
-CSS Properties Table
+3. CSS Properties Table
 
-Property| Value| Purpose| Snippet
-display| flex| Aligns content horizontally.| "display: flex;"
-border-bottom| 1px solid #000| Creates bottom separator line.| "border-bottom: 1px solid #000;"
+Property| Value| Purpose
+display| flex| Aligns form elements horizontally.
+border-bottom| 1px solid #000| Creates bottom border effect.
 
 ---
-
-
