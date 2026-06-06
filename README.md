@@ -1,67 +1,85 @@
 
 # Clothing Store Landing Page - Box Mapping Assignment
-Is project mein humne "Box Mapping" technique ka use karte hue ek Clothing Store landing page ka layout structure define kiya hai.
-## 1. Section Stack Overview
-Landing page ke 7 core sections ka vertical stacking order:
-| Section | Key CSS Properties |
-|---|---|
-| **Navbar** | display: flex;, position: sticky; |
-| **Hero Section** | min-height: 80vh;, background-size: cover; |
-| **About Us** | display: flex;, gap: 24px; |
-| **Promo Banner** | display: flex;, flex-direction: column; |
-| **Features Section** | display: flex;, display: grid; |
-| **Our Products** | display: flex;, flex-wrap: wrap; |
-| **Newsletter** | display: flex;, border-bottom: 1px solid #000; |
-## 2. Section-by-Section Box Mapping
-### Section 1: Navbar
+## SECTION 1: NAVBAR
+[Screenshot: NAVBAR_SECTION_01.png]
 | Box Name | HTML Tag | Description |
 |---|---|---|
-| NAVBAR CONTAINER | <header> | Outermost container, sticky to top. |
+| NAVBAR CONTAINER | <header> | Outermost container for navigation, sticky to top. |
 | LOGO | <a> | Clickable brand text (Esprit). |
 | NAV LINKS WRAPPER | <nav> > <ul> | Row holding the menu links. |
-| CTA BUTTON | <button> | "Buy Now" button. |
-**CSS:** header { display: flex; justify-content: space-between; }
-### Section 2: Hero Section
+| CTA BUTTON | <button> | "Buy Now" button on the right edge. |
+**CSS Properties:**
+| Property | Value | Purpose | Snippet |
+|---|---|---|---|
+| display | flex | Aligns items horizontally. | header { display: flex; } |
+| justify-content | space-between | Pushes items to edges. | justify-content: space-between; |
+## SECTION 2: HERO SECTION
+[Screenshot: HERO_SECTION_02.png]
 | Box Name | HTML Tag | Description |
 |---|---|---|
-| HERO SECTION | <section> | Holds background fashion image. |
-| TEXT WRAPPER | <div> | Box holding text over image. |
+| HERO SECTION | <section> | Holds the large background fashion image. |
+| TEXT WRAPPER | <div> | Box holding the text over the image. |
 | MAIN HEADING | <h1> | Title text "Clothing Store". |
-**CSS:** .hero { background-size: cover; min-height: 80vh; }
-### Section 3: About Us
+**CSS Properties:**
+| Property | Value | Purpose | Snippet |
+|---|---|---|---|
+| background-size | cover | Fits image to cover the section perfectly. | background-size: cover; |
+## SECTION 3: ABOUT US
+[Screenshot: ABOUT_US_SECTION_03.png]
 | Box Name | HTML Tag | Description |
 |---|---|---|
-| ABOUT SECTION | <section> | Full section block. |
-| SECTION TITLE | <h2> | Center-aligned title. |
-| CARDS WRAPPER | <div> | Horizontal wrapper (3 columns). |
+| ABOUT SECTION | <section> | Full section block with white background. |
+| SECTION TITLE | <h2> | Center-aligned title "About Us". |
+| CARDS WRAPPER | <div> | Horizontal wrapper holding 3 columns. |
 | ABOUT CARD | <div> | Individual card (Image + Text). |
-**CSS:** .cards-wrapper { display: flex; gap: 24px; }
-### Section 4: Promo Banner
+**CSS Properties:**
+| Property | Value | Purpose | Snippet |
+|---|---|---|---|
+| display | flex | Positions 3 cards side-by-side. | div { display: flex; } |
+| gap | 24px | Adds spacing between cards. | gap: 24px; |
+## SECTION 4: PROMO BANNER (-70%)
+[Screenshot: PROMO_BANNER_04.png]
 | Box Name | HTML Tag | Description |
 |---|---|---|
-| PROMO BANNER | <section> | Banner featuring sale text. |
+| PROMO BANNER | <section> | Banner featuring the sale text. |
 | INFO WRAPPER | <div> | Centered column grouping details. |
-| SHOP BUTTON | <button> | "Shop Now" button. |
-**CSS:** .info-wrapper { display: flex; flex-direction: column; }
-### Section 5: Features Our Store
+| SHOP BUTTON | <button> | "Shop Now" call to action button. |
+**CSS Properties:**
+| Property | Value | Purpose | Snippet |
+|---|---|---|---|
+| flex-direction | column | Stacks items vertically inside the box. | flex-direction: column; |
+## SECTION 5: FEATURES OUR STORE
+[Screenshot: FEATURES_SECTION_05.png]
 | Box Name | HTML Tag | Description |
 |---|---|---|
-| FEATURES CONTAINER | <section> | Outermost section. |
-| LEFT TITLE BOX | <div> | Left column for heading. |
-| RIGHT GRID BOX | <div> | Right column (2x2 items grid). |
-**CSS:** .right-grid { display: grid; grid-template-columns: 1fr 1fr; }
-### Section 6: Our Products
+| FEATURES CONTAINER | <section> | Outermost section for features list. |
+| LEFT TITLE BOX | <div> | Left column for the heading. |
+| RIGHT GRID BOX | <div> | Right column holding 2x2 items grid. |
+**CSS Properties:**
+| Property | Value | Purpose | Snippet |
+|---|---|---|---|
+| display | grid | Forms a clean grid for feature icons. | div { display: grid; } |
+| grid-template-columns | 1fr 1fr | Splits space into two equal columns. | grid-template-columns: 1fr 1fr; |
+## SECTION 6: OUR PRODUCTS
+[Screenshot: PRODUCTS_SECTION_06.png]
 | Box Name | HTML Tag | Description |
 |---|---|---|
-| PRODUCTS SECTION | <section> | Main catalog section. |
-| GRID WRAPPER | <div> | Wrapper for responsive rows. |
-| PRODUCT CARD | <div> | Individual item (Img, Title, Price). |
-**CSS:** .grid-wrapper { display: flex; flex-wrap: wrap; }
-### Section 7: Newsletter
+| PRODUCTS SECTION | <section> | Main section for displaying clothes catalog. |
+| GRID WRAPPER | <div> | Wrapping box for responsive items rows. |
+| PRODUCT CARD | <div> | Individual item (Image, Title, Price). |
+**CSS Properties:**
+| Property | Value | Purpose | Snippet |
+|---|---|---|---|
+| flex-wrap | wrap | Drops items to next row if space is small. | flex-wrap: wrap; |
+## SECTION 7: NEWSLETTER
+[Screenshot: NEWSLETTER_SECTION_07.png]
 | Box Name | HTML Tag | Description |
 |---|---|---|
-| NEWSLETTER BOX | <section> | Bottom accent box. |
-| FORM WRAPPER | <form> | Inline row for input/button. |
-| EMAIL INPUT | <input> | Field for email. |
-**CSS:** input { border-bottom: 1px solid #000; }
+| NEWSLETTER BOX | <section> | Bottom accent box for email collection. |
+| FORM WRAPPER | <form> | Inline row handling inputs and button. |
+| EMAIL INPUT | <input> | Input field for typing email. |
+**CSS Properties:**
+| Property | Value | Purpose | Snippet |
+|---|---|---|---|
+| border-bottom | 1px solid #000 | Creates minimalist underline look. | input { border-bottom: 1px solid #000; } |
 
